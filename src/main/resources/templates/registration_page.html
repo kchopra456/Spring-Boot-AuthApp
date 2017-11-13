@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 
     <head>
 
@@ -118,24 +119,24 @@
 				                    <form role="form" action="/user_registration" method="post" class="registration-form">
 				                    	<div class="form-group">
 				                    		<label class="sr-only" for="form-first-name">First name</label>
-				                        	<input type="text" name="form-first-name" placeholder="First name..." class="form-first-name form-control" id="form-first-name" required="required"></input>
+				                        	<input type="text" name="firstName" placeholder="First name..." class="form-first-name form-control" id="form-first-name" required="required"></input>
 				                        </div>
 				                        <div class="form-group">
 				                        	<label class="sr-only" for="form-last-name">Last name</label>
-				                        	<input type="text" name="form-last-name" placeholder="Last name..." class="form-last-name form-control" id="form-last-name" required="required"></input>
+				                        	<input type="text" name="lastName" placeholder="Last name..." class="form-last-name form-control" id="form-last-name" required="required"></input>
 				                        </div>
 				                        <div class="form-group">
 				                        	<label class="sr-only" for="form-email">Email</label>
-				                        	<input type="text" name="form-email" placeholder="Email..." class="form-email form-control" id="form-email" required="required"></input>
+				                        	<input type="text" name="email" placeholder="Email..." class="form-email form-control" id="form-email" required="required"></input>
                                             <p id="valid-email" ></p>
 				                        </div>
                                          <div class="form-group">
 				                        	<label class="sr-only" for="form-password">Password</label>
-				                        	<input type="password" name="form-password" placeholder="Password..." class="form-password form-control" id="form-password" required="required"></input>
+				                        	<input type="password" name="password" placeholder="Password..." class="form-password form-control" id="form-password" required="required"></input>
 				                        </div>
                                         <div class="form-group">
 				                        	<label class="sr-only" for="form-confirm-password">Confirm Password</label>
-				                        	<input type="password" name="form-confirm-password" placeholder="Confirm Password..." class="form-confirm-password form-control" id="form-confirm-password" required="required"></input>
+				                        	<input type="password" name="confirmPassword" placeholder="Confirm Password..." class="form-confirm-password form-control" id="form-confirm-password" required="required"></input>
                                             <p id="text-password-match"></p>
 				                        </div>
 				                        <div class="form-group">

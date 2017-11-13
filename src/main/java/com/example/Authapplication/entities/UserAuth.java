@@ -10,7 +10,7 @@ import javax.persistence.Table;
 
 
 @Entity
-@Table(name = "UserAuth")
+@Table(name = "userauth")
 public class UserAuth {
 
 	@Id
